@@ -1,9 +1,0 @@
-# Ignorar pastas e arquivos específicos
-../../../*
-!.git
-*.mp3
-*.deb
-*.sh
-*.db
-*.json
-
