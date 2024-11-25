@@ -1,0 +1,21 @@
+/*
+ * ATTENTION: An "eval-source-map" devtool has been used.
+ * This devtool is neither made for production nor for readable output files.
+ * It uses "eval()" calls to create a separate source file with attached SourceMaps in the browser devtools.
+ * If you are trying to read the output file, select a different devtool (https://webpack.js.org/configuration/devtool/)
+ * or disable the default devtool with "devtool: false".
+ * If you are looking for production-ready output files, see mode: "production" (https://webpack.js.org/configuration/mode/).
+ */
+self["webpackHotUpdate_N_E"]("app/stories/[category]/page",{
+
+/***/ "(app-pages-browser)/./app/stories/[category]/Category.module.css":
+/*!****************************************************!*\
+  !*** ./app/stories/[category]/Category.module.css ***!
+  \****************************************************/
+/***/ ((module, __unused_webpack_exports, __webpack_require__) => {
+
+eval(__webpack_require__.ts("// extracted by mini-css-extract-plugin\nmodule.exports = {\"categoryPage\":\"Category_categoryPage__dqH_k\",\"borderLeft\":\"Category_borderLeft___ZLX_\",\"borderRight\":\"Category_borderRight__XRCJ_\",\"logoContainer\":\"Category_logoContainer__zqnU5\",\"header\":\"Category_header__5aZqW\",\"sectionHeading\":\"Category_sectionHeading__H9ga8\",\"categoryName\":\"Category_categoryName__VJci7\",\"storiesContainer\":\"Category_storiesContainer__rJlcn\",\"storyCard\":\"Category_storyCard__5V9eV\",\"storyTitle\":\"Category_storyTitle__sZweC\",\"readMoreButton\":\"Category_readMoreButton__3i2AB\",\"error\":\"Category_error___x3t8\"};\n    if(true) {\n      // 1732516622621\n      var cssReload = __webpack_require__(/*! ./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js */ \"(app-pages-browser)/./node_modules/next/dist/compiled/mini-css-extract-plugin/hmr/hotModuleReplacement.js\")(module.id, {\"publicPath\":\"/_next/\",\"esModule\":false,\"locals\":true});\n      module.hot.dispose(cssReload);\n      \n    }\n  \nmodule.exports.__checksum = \"6d8e57e0b1ce\"\n//# sourceURL=[module]\n//# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJmaWxlIjoiKGFwcC1wYWdlcy1icm93c2VyKS8uL2FwcC9zdG9yaWVzL1tjYXRlZ29yeV0vQ2F0ZWdvcnkubW9kdWxlLmNzcyIsIm1hcHBpbmdzIjoiQUFBQTtBQUNBLGtCQUFrQjtBQUNsQixPQUFPLElBQVU7QUFDakI7QUFDQSxzQkFBc0IsbUJBQU8sQ0FBQyx3TUFBbUosY0FBYyxzREFBc0Q7QUFDclAsTUFBTSxVQUFVO0FBQ2hCO0FBQ0E7QUFDQTtBQUNBLHlCQUF5QiIsInNvdXJjZXMiOlsiL2hvbWUvYWxnb3JpdG1lL0RvY3VtZW50b3MvcHJvamV0b3MvbGFibGFiL3Blcm1hY3VsdC9mcm9udGVuZC9hcHAvc3Rvcmllcy9bY2F0ZWdvcnldL0NhdGVnb3J5Lm1vZHVsZS5jc3MiXSwic291cmNlc0NvbnRlbnQiOlsiLy8gZXh0cmFjdGVkIGJ5IG1pbmktY3NzLWV4dHJhY3QtcGx1Z2luXG5tb2R1bGUuZXhwb3J0cyA9IHtcImNhdGVnb3J5UGFnZVwiOlwiQ2F0ZWdvcnlfY2F0ZWdvcnlQYWdlX19kcUhfa1wiLFwiYm9yZGVyTGVmdFwiOlwiQ2F0ZWdvcnlfYm9yZGVyTGVmdF9fX1pMWF9cIixcImJvcmRlclJpZ2h0XCI6XCJDYXRlZ29yeV9ib3JkZXJSaWdodF9fWFJDSl9cIixcImxvZ29Db250YWluZXJcIjpcIkNhdGVnb3J5X2xvZ29Db250YWluZXJfX3pxblU1XCIsXCJoZWFkZXJcIjpcIkNhdGVnb3J5X2hlYWRlcl9fNWFacVdcIixcInNlY3Rpb25IZWFkaW5nXCI6XCJDYXRlZ29yeV9zZWN0aW9uSGVhZGluZ19fSDlnYThcIixcImNhdGVnb3J5TmFtZVwiOlwiQ2F0ZWdvcnlfY2F0ZWdvcnlOYW1lX19WSmNpN1wiLFwic3Rvcmllc0NvbnRhaW5lclwiOlwiQ2F0ZWdvcnlfc3Rvcmllc0NvbnRhaW5lcl9fckpsY25cIixcInN0b3J5Q2FyZFwiOlwiQ2F0ZWdvcnlfc3RvcnlDYXJkX181VjllVlwiLFwic3RvcnlUaXRsZVwiOlwiQ2F0ZWdvcnlfc3RvcnlUaXRsZV9fc1p3ZUNcIixcInJlYWRNb3JlQnV0dG9uXCI6XCJDYXRlZ29yeV9yZWFkTW9yZUJ1dHRvbl9fM2kyQUJcIixcImVycm9yXCI6XCJDYXRlZ29yeV9lcnJvcl9fX3gzdDhcIn07XG4gICAgaWYobW9kdWxlLmhvdCkge1xuICAgICAgLy8gMTczMjUxNjYyMjYyMVxuICAgICAgdmFyIGNzc1JlbG9hZCA9IHJlcXVpcmUoXCIvaG9tZS9hbGdvcml0bWUvRG9jdW1lbnRvcy9wcm9qZXRvcy9sYWJsYWIvcGVybWFjdWx0L2Zyb250ZW5kL25vZGVfbW9kdWxlcy9uZXh0L2Rpc3QvY29tcGlsZWQvbWluaS1jc3MtZXh0cmFjdC1wbHVnaW4vaG1yL2hvdE1vZHVsZVJlcGxhY2VtZW50LmpzXCIpKG1vZHVsZS5pZCwge1wicHVibGljUGF0aFwiOlwiL19uZXh0L1wiLFwiZXNNb2R1bGVcIjpmYWxzZSxcImxvY2Fsc1wiOnRydWV9KTtcbiAgICAgIG1vZHVsZS5ob3QuZGlzcG9zZShjc3NSZWxvYWQpO1xuICAgICAgXG4gICAgfVxuICBcbm1vZHVsZS5leHBvcnRzLl9fY2hlY2tzdW0gPSBcIjZkOGU1N2UwYjFjZVwiXG4iXSwibmFtZXMiOltdLCJpZ25vcmVMaXN0IjpbXSwic291cmNlUm9vdCI6IiJ9\n//# sourceURL=webpack-internal:///(app-pages-browser)/./app/stories/[category]/Category.module.css\n"));
+
+/***/ })
+
+});

@@ -1,0 +1,73 @@
+.fabContainer {
+    position: fixed;
+    bottom: 40px;
+    right: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  /* Botão Principal */
+  .mainFab {
+    background-color: #ffffff; /* Cor principal */
+    border: none;
+    border-radius: 50%;
+    width: 80px; /* Tamanho fixo */
+    height: 80px; /* Tamanho fixo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, background-color 0.3s ease;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .mainFab:hover {
+    transform: scale(1.1);
+    background-color: #f7f7f7; /* Cor de hover */
+  }
+  
+  /* Ícone Principal */
+  .permacultIcon {
+    width: 60px;
+    height: 60px;
+  }
+
+
+    /* Ícone Principal */
+    .icon {
+      width: 40px;
+      height: 40px;
+    }
+  
+  /* Botões Expandidos */
+  .expandedButtons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    margin-bottom: 10px;
+    align-items: center;
+  }
+  
+  .fabButton {
+    background-color: white;
+    color: #28c2a0; /* Cor do ícone */
+    border: none;
+    border-radius: 50px;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+  }
+  
+  .fabButton:hover {
+    transform: scale(1.05);
+    background-color: #f7f7f7;
+  }
+  
