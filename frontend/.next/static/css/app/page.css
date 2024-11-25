@@ -1,0 +1,284 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/components/SplashScreen.module.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+/* Estilização da Splash Screen */
+.SplashScreen_splashContainer__Xb10I {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #faf3e0; /* Fundo suave */
+  z-index: 1000; /* Sempre acima de outros elementos */
+}
+
+/* Estilo do logo */
+.SplashScreen_logo__7GAgM {
+  width: 60%;
+  max-width: 300px;
+  opacity: 0;
+  animation: SplashScreen_fadeIn__j2YF_ 1.5s forwards ease-out;
+}
+
+/* Estilo do slogan */
+.SplashScreen_slogan__eP6Sb {
+  margin-top: 20px;
+  width: 80%;
+  max-width: 500px;
+  opacity: 0;
+  animation: SplashScreen_fadeIn__j2YF_ 1.5s 1.5s forwards ease-out; /* Delay de 1.5 segundos */
+}
+
+/* Animações de FadeIn e FadeOut */
+@keyframes SplashScreen_fadeIn__j2YF_ {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.SplashScreen_fadeInDelay__cTx4h {
+  animation-delay: 1.5s;
+}
+
+@keyframes SplashScreen_fadeOut__eI7JT {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+  }
+}
+
+/* Aplicar a transição para o fadeOut */
+.SplashScreen_fadeOut__eI7JT {
+  animation: SplashScreen_fadeOut__eI7JT 1.5s forwards ease-out;
+}
+
+/*!*********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/components/CreateModal.module.css ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************************/
+.CreateModal_modal__kAQfF {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #faf3e0;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    width: 90%;
+    max-width: 500px;
+  }
+  
+  .CreateModal_title__sNIYB {
+    font-family: 'League Spartan', sans-serif;
+    font-size: 1.5rem;
+    color: #000;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .CreateModal_input__uicNv,
+  .CreateModal_textarea__J_PFd {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 2px solid #ffffff;
+    border-radius: 8px;
+    font-size: 1rem;
+    background: #ffffff;
+    color: #444;
+    outline: none;
+  }
+  
+  .CreateModal_input__uicNv:focus,
+  .CreateModal_textarea__J_PFd:focus {
+    border-color: #bae493;
+  }
+  
+  .CreateModal_iconContainer__dRjJ3 {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+  }
+  
+  .CreateModal_icon__CZfPr {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+  }
+  
+  .CreateModal_icon__CZfPr:hover {
+    transform: scale(1.1);
+  }
+  
+  .CreateModal_button__GAeAD {
+    background: #bae493;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 5px;
+  }
+  
+  .CreateModal_button__GAeAD:hover {
+    background: #98c878;
+  }
+  
+  .CreateModal_buttonContainer__7rEGs {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+/*!******************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[13].oneOf[5].use[3]!./app/Welcome.module.css ***!
+  \******************************************************************************************************************************************************************************************************************************************************************/
+/* Estilização da página Welcome */
+.Welcome_welcomePage__9F2By {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #faf3e0; /* Cor de fundo suave */
+    padding: 20px;
+  }
+  
+  /* Título animado */
+  .Welcome_animatedTitle__vd4Ho {
+    font-size: 2rem;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: #444; /* Texto em cinza suave */
+    animation: Welcome_fadeIn__nqmBw 1.5s ease-out;
+  }
+  
+  /* Contador de histórias */
+  .Welcome_storyCount__sRirC {
+    font-size: 1.2rem;
+    margin: 20px 0;
+    color: #80ac3b; /* Verde orgânico */
+  }
+  
+  .Welcome_storyCount__sRirC span {
+    font-weight: bold;
+    font-size: 1.4rem;
+    color: #f4b50b; /* Destaque em laranja */
+  }
+  
+  /* Molduras laterais */
+  .Welcome_borderLeft__3V4OA,
+  .Welcome_borderRight__0Szkd {
+    position: fixed;
+    top: 0;
+    height: 100vh;
+    width: auto;
+    z-index: 1; /* Para que fique atrás do conteúdo */
+  }
+  
+  .Welcome_borderLeft__3V4OA {
+    left: -90px;
+  }
+  
+  .Welcome_borderRight__0Szkd {
+    right: -90px;
+  }
+  
+  /* Desativar em dispositivos móveis */
+  @media (max-width: 768px) {
+    .Welcome_borderLeft__3V4OA,
+    .Welcome_borderRight__0Szkd {
+      display: none;
+    }
+  }
+
+
+
+
+
+/* Ajuste para o container do mapa/imagem */
+.Welcome_globeContainer__q9gFF {
+  width: 100%;
+  max-width: 1000px;
+  margin: 20px auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #eae8dc00;
+  overflow: hidden;
+}
+
+/* Estilo para a imagem */
+.Welcome_worldImage__OjpFI {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+  
+  
+
+  /* Botões de navegação */
+  .Welcome_buttonContainer__E2Qnh {
+    display: flex;
+    gap: 20px;
+    margin-top: 30px;
+  }
+  
+  .Welcome_exploreButton__hm81T,
+  .Welcome_sendButton__7Nuir {
+    padding: 15px 30px;
+    border: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    font-family: 'League Spartan', sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .Welcome_exploreButton__hm81T {
+    background-color: #80ac3b; /* Verde orgânico */
+    color: white;
+  }
+  
+  .Welcome_exploreButton__hm81T:hover {
+    transform: scale(1.05);
+    background-color: #5e7c2c;
+  }
+  
+  .Welcome_sendButton__7Nuir {
+    background-color: #f4b50b; /* Laranja */
+    color: white;
+  }
+  
+  .Welcome_sendButton__7Nuir:hover {
+    transform: scale(1.05);
+    background-color: #c9960b;
+  }
+  
+  /* Animação de fadeIn */
+  @keyframes Welcome_fadeIn__nqmBw {
+    from {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
